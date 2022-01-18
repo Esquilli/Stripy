@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CEC41C2797766900CDBA19 /* StripyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEC41B2797766900CDBA19 /* StripyApp.swift */; };
+		18CEC41E2797766900CDBA19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEC41D2797766900CDBA19 /* ContentView.swift */; };
+		18CEC4202797766A00CDBA19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CEC41F2797766A00CDBA19 /* Assets.xcassets */; };
+		18CEC4232797766A00CDBA19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CEC4222797766A00CDBA19 /* Preview Assets.xcassets */; };
+		18CEC42D2797766B00CDBA19 /* StripyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEC42C2797766B00CDBA19 /* StripyTests.swift */; };
+		18CEC4372797766B00CDBA19 /* StripyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEC4362797766B00CDBA19 /* StripyUITests.swift */; };
+		18CEC4392797766B00CDBA19 /* StripyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEC4382797766B00CDBA19 /* StripyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18CEC4292797766B00CDBA19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CEC4102797766900CDBA19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CEC4172797766900CDBA19;
+			remoteInfo = Stripy;
+		};
+		18CEC4332797766B00CDBA19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CEC4102797766900CDBA19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CEC4172797766900CDBA19;
+			remoteInfo = Stripy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18CEC4182797766900CDBA19 /* Stripy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stripy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CEC41B2797766900CDBA19 /* StripyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripyApp.swift; sourceTree = "<group>"; };
+		18CEC41D2797766900CDBA19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18CEC41F2797766A00CDBA19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18CEC4222797766A00CDBA19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18CEC4282797766B00CDBA19 /* StripyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StripyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CEC42C2797766B00CDBA19 /* StripyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripyTests.swift; sourceTree = "<group>"; };
+		18CEC4322797766B00CDBA19 /* StripyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StripyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CEC4362797766B00CDBA19 /* StripyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripyUITests.swift; sourceTree = "<group>"; };
+		18CEC4382797766B00CDBA19 /* StripyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CEC4152797766900CDBA19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CEC4252797766B00CDBA19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CEC42F2797766B00CDBA19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CEC40F2797766900CDBA19 = {
+			isa = PBXGroup;
+			children = (
+				18CEC41A2797766900CDBA19 /* Stripy */,
+				18CEC42B2797766B00CDBA19 /* StripyTests */,
+				18CEC4352797766B00CDBA19 /* StripyUITests */,
+				18CEC4192797766900CDBA19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CEC4192797766900CDBA19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CEC4182797766900CDBA19 /* Stripy.app */,
+				18CEC4282797766B00CDBA19 /* StripyTests.xctest */,
+				18CEC4322797766B00CDBA19 /* StripyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CEC41A2797766900CDBA19 /* Stripy */ = {
+			isa = PBXGroup;
+			children = (
+				18CEC41B2797766900CDBA19 /* StripyApp.swift */,
+				18CEC41D2797766900CDBA19 /* ContentView.swift */,
+				18CEC41F2797766A00CDBA19 /* Assets.xcassets */,
+				18CEC4212797766A00CDBA19 /* Preview Content */,
+			);
+			path = Stripy;
+			sourceTree = "<group>";
+		};
+		18CEC4212797766A00CDBA19 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18CEC4222797766A00CDBA19 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18CEC42B2797766B00CDBA19 /* StripyTests */ = {
+			isa = PBXGroup;
+			children = (
+				18CEC42C2797766B00CDBA19 /* StripyTests.swift */,
+			);
+			path = StripyTests;
+			sourceTree = "<group>";
+		};
+		18CEC4352797766B00CDBA19 /* StripyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18CEC4362797766B00CDBA19 /* StripyUITests.swift */,
+				18CEC4382797766B00CDBA19 /* StripyUITestsLaunchTests.swift */,
+			);
+			path = StripyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CEC4172797766900CDBA19 /* Stripy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CEC43C2797766B00CDBA19 /* Build configuration list for PBXNativeTarget "Stripy" */;
+			buildPhases = (
+				18CEC4142797766900CDBA19 /* Sources */,
+				18CEC4152797766900CDBA19 /* Frameworks */,
+				18CEC4162797766900CDBA19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stripy;
+			productName = Stripy;
+			productReference = 18CEC4182797766900CDBA19 /* Stripy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18CEC4272797766B00CDBA19 /* StripyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CEC43F2797766B00CDBA19 /* Build configuration list for PBXNativeTarget "StripyTests" */;
+			buildPhases = (
+				18CEC4242797766B00CDBA19 /* Sources */,
+				18CEC4252797766B00CDBA19 /* Frameworks */,
+				18CEC4262797766B00CDBA19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CEC42A2797766B00CDBA19 /* PBXTargetDependency */,
+			);
+			name = StripyTests;
+			productName = StripyTests;
+			productReference = 18CEC4282797766B00CDBA19 /* StripyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18CEC4312797766B00CDBA19 /* StripyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CEC4422797766B00CDBA19 /* Build configuration list for PBXNativeTarget "StripyUITests" */;
+			buildPhases = (
+				18CEC42E2797766B00CDBA19 /* Sources */,
+				18CEC42F2797766B00CDBA19 /* Frameworks */,
+				18CEC4302797766B00CDBA19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CEC4342797766B00CDBA19 /* PBXTargetDependency */,
+			);
+			name = StripyUITests;
+			productName = StripyUITests;
+			productReference = 18CEC4322797766B00CDBA19 /* StripyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CEC4102797766900CDBA19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					18CEC4172797766900CDBA19 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					18CEC4272797766B00CDBA19 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 18CEC4172797766900CDBA19;
+					};
+					18CEC4312797766B00CDBA19 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 18CEC4172797766900CDBA19;
+					};
+				};
+			};
+			buildConfigurationList = 18CEC4132797766900CDBA19 /* Build configuration list for PBXProject "Stripy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CEC40F2797766900CDBA19;
+			productRefGroup = 18CEC4192797766900CDBA19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CEC4172797766900CDBA19 /* Stripy */,
+				18CEC4272797766B00CDBA19 /* StripyTests */,
+				18CEC4312797766B00CDBA19 /* StripyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CEC4162797766900CDBA19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CEC4232797766A00CDBA19 /* Preview Assets.xcassets in Resources */,
+				18CEC4202797766A00CDBA19 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CEC4262797766B00CDBA19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CEC4302797766B00CDBA19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CEC4142797766900CDBA19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CEC41E2797766900CDBA19 /* ContentView.swift in Sources */,
+				18CEC41C2797766900CDBA19 /* StripyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CEC4242797766B00CDBA19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CEC42D2797766B00CDBA19 /* StripyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CEC42E2797766B00CDBA19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CEC4372797766B00CDBA19 /* StripyUITests.swift in Sources */,
+				18CEC4392797766B00CDBA19 /* StripyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18CEC42A2797766B00CDBA19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CEC4172797766900CDBA19 /* Stripy */;
+			targetProxy = 18CEC4292797766B00CDBA19 /* PBXContainerItemProxy */;
+		};
+		18CEC4342797766B00CDBA19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CEC4172797766900CDBA19 /* Stripy */;
+			targetProxy = 18CEC4332797766B00CDBA19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18CEC43A2797766B00CDBA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18CEC43B2797766B00CDBA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CEC43D2797766B00CDBA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stripy/Preview Content\"";
+				DEVELOPMENT_TEAM = L4CX4QKSV5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esquilli.Stripy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18CEC43E2797766B00CDBA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stripy/Preview Content\"";
+				DEVELOPMENT_TEAM = L4CX4QKSV5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esquilli.Stripy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18CEC4402797766B00CDBA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4CX4QKSV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esquilli.StripyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stripy.app/Stripy";
+			};
+			name = Debug;
+		};
+		18CEC4412797766B00CDBA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4CX4QKSV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esquilli.StripyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stripy.app/Stripy";
+			};
+			name = Release;
+		};
+		18CEC4432797766B00CDBA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4CX4QKSV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esquilli.StripyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stripy;
+			};
+			name = Debug;
+		};
+		18CEC4442797766B00CDBA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4CX4QKSV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esquilli.StripyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stripy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CEC4132797766900CDBA19 /* Build configuration list for PBXProject "Stripy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CEC43A2797766B00CDBA19 /* Debug */,
+				18CEC43B2797766B00CDBA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CEC43C2797766B00CDBA19 /* Build configuration list for PBXNativeTarget "Stripy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CEC43D2797766B00CDBA19 /* Debug */,
+				18CEC43E2797766B00CDBA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CEC43F2797766B00CDBA19 /* Build configuration list for PBXNativeTarget "StripyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CEC4402797766B00CDBA19 /* Debug */,
+				18CEC4412797766B00CDBA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CEC4422797766B00CDBA19 /* Build configuration list for PBXNativeTarget "StripyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CEC4432797766B00CDBA19 /* Debug */,
+				18CEC4442797766B00CDBA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CEC4102797766900CDBA19 /* Project object */;
+}
